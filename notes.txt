@@ -19,3 +19,14 @@ recent version is Python 3
 Python designed for readability, uses few lines to complete a command,
     relies on indentation, using whitespace, to define scope such as scope of loops,
     functions and classes.
+
+Python syntax can be executed directly by writing in the Command Line or by
+    creating a python file on the server, using the .py file extension and running
+    it in the Command Line.
+
+Python indentation refers to the spaces at the beginning of a code line.
+Python uses indentation to indicate a block of code.
+variables are created when you assign a value to it
+Python has no command for declaring a variable
+comments start with a # in python
+
