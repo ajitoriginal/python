@@ -1,2 +1,21 @@
 Python is a popular programming language.
 Python can be used on a server to create web applications.
+Created by Guido Van Rossum & released in 1991.
+Used for:
+    - web development (server side)
+    - software development
+    - mathematics
+    - system scripting
+    - create workflows
+    - connect database systems
+    - handle big data & perform complex mathematics
+    - rapid prototyping, production ready software development
+
+Works on different platforms (Windows, Mac, Linux, Raspberry Pi etc.)
+Simple syntax
+runs on an interpreter system
+object-oriented or functional way
+recent version is Python 3
+Python designed for readability, uses few lines to complete a command,
+    relies on indentation, using whitespace, to define scope such as scope of loops,
+    functions and classes.
