@@ -1,5 +1,5 @@
 import sys
-
+import random
 # print("Hello, Ajit!")
 # print(sys.version)
 # print("first"); print("second")
@@ -40,9 +40,11 @@ import sys
 # print(x)
 
 # x = "Ajit is awesome"
-def myFunc():
-    global x
-    x = "new value"
-    print(x)
-myFunc()
-print(x)
+# def myFunc():
+#     global x
+#     x = "new value"
+#     print(x)
+# myFunc()
+# print(x)
+
+print(random.randrange(1, 10))
