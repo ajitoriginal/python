@@ -46,5 +46,44 @@ import random
 #     print(x)
 # myFunc()
 # print(x)
+# y = 'redmagic'
+# print(random.randrange(1, 10))
+# for x in "banana":
+#     print(x)
+# print(len(y))
 
-print(random.randrange(1, 10))
+# text = "Ajit is the best person"
+# print("best" in text)
+# for x in text:
+#     print(x)
+
+
+# if "bestd" not in text:
+#     print("yes")
+# else:
+#     print("no")
+
+# b = "Hello Ajit"
+# c = "Hello Ajit "
+# n = "Hello,Guys"
+# print(b[-4:-1])
+# print(b.upper()) 
+# print(b.lower()) 
+# print(c.strip()) 
+# print(c.replace("H", "K"))
+# print(n.split(","))
+# age = 29
+# txt = f"My name is AJit, I am {10 + age:.3f}"
+# print(txt)
+
+# txt = "this is a t\"ext s\\tri\n\\g"
+# print(txt)
+x = "trimaxma ma"
+y = "Trimaxma"
+print(x)
+print(x.capitalize())
+print(y.casefold())
+print(x.center(10))
+print(y.count("ma"))
+print(y.find("m"))
+print(x.title())
