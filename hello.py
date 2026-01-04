@@ -78,12 +78,69 @@ import random
 
 # txt = "this is a t\"ext s\\tri\n\\g"
 # print(txt)
-x = "trimaxma ma"
-y = "Trimaxma"
-print(x)
-print(x.capitalize())
-print(y.casefold())
-print(x.center(10))
-print(y.count("ma"))
-print(y.find("m"))
-print(x.title())
+# x = "trimaxma ma"
+# y = "Trimaxma"
+# print(x)
+# print(x.capitalize())
+# print(y.casefold())
+# print(x.center(10))
+# print(y.count("ma"))
+# print(y.find("m"))
+# print(x.title())
+
+# thisList = ["apple", "banana", "cherry", "banana"]
+# print(thisList)
+# print(len(thisList))
+# print(type(thisList))
+# newList = list(("banana", "cherry", "banana", "apple", "guava", "amla"))
+# print(newList)
+# print(len(newList))
+# print(type(newList))
+# print(newList[1])
+# print(newList[-1])
+# print(newList[2:5])
+# print(newList[:4])
+# print(newList[2:])
+# print(len(newList[2:]))
+# print(newList[-4:-1])
+# if "amla" in newList:
+#     print("yes amla is in the newList")
+
+# thislist = ["apple", "banana", "cherry"]
+# for x in thislist:
+#   print(x)
+
+# [print(x) for x in thislist]
+
+# i = 0
+# while i < len(thislist):
+#     print(thislist[i])
+#     i = i + 1
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newList = [x for x in fruits if "a" in x]
+# print(newList)
+# newlist2 = [x.upper() for x in fruits]
+# print(newlist2)
+# newlist3 = ['hello' for x in fruits]
+# print(newlist3)
+# thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+# thislist = [100, 50, 65, 82, 23]
+# thislist.sort()
+# thislist.sort(reverse = True)
+# print(thislist)
+# mylist = thislist.copy()
+# mylist = list(thislist)
+# mylist= thislist[:]
+# print(mylist)
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+# list3 = list1 + list2
+# print(list3)
+# for x in list2:
+#     list1.append(x)
+list1.extend(list2)
+print(list1)
+
+
+
