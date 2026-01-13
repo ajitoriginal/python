@@ -133,14 +133,30 @@ import random
 # mylist = list(thislist)
 # mylist= thislist[:]
 # print(mylist)
-list1 = ["a", "b", "c"]
-list2 = [1, 2, 3]
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3]
 # list3 = list1 + list2
 # print(list3)
 # for x in list2:
 #     list1.append(x)
-list1.extend(list2)
-print(list1)
+# list1.extend(list2)
+# print(list1)
 
+# x = ("apple", "banana", "mango")
+# y = list(x)
+# y[1] = "guava"
+# x = tuple(y)
+# print(x)
+# del x
+# listone = list(x)
+# listone.clear()
+# x = listone
+# print(x)
 
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
