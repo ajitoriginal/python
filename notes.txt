@@ -34,3 +34,7 @@ instructions given to a computer to be executed are called statements in program
 
 Python statements usually ends with the line ends, no need to use a semicolon but
 to write multiple statements on one line you need to use semicolon to seperate them.
+
+
+
+========
